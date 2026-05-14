@@ -2,9 +2,9 @@ testenv:
   # dataset configuration
   dataset:
     # the url address of train dataset index; string type;
-    train_index: "/Users/abhishekkumar/data/datasets/robot_dataset/train-index-real.txt"
+    train_index: "/path/to/dataset/robot_dataset/train-index.txt"
     # the url address of test dataset index; string type;
-    test_index: "/Users/abhishekkumar/data/datasets/robot_dataset/test-index-real.txt"
+    test_index: "/path/to/dataset/robot_dataset/test-index.txt"
 
   # model eval configuration of incremental learning;
   model_eval:
